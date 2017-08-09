@@ -861,5 +861,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0050101', e
 
 #videowrap-header {
 	border: none !important;
-
+	
+	body {
+background:#10101A !important;
 }
