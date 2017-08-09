@@ -46,7 +46,7 @@ window[CHANNEL.name].sequencerLoader = function (){
 };window[CHANNEL.name].sequencerLoader()
 
 $('head').append("<link rel='stylesheet' href='//rawgit.com/sawwashere/CYTUBE-BABYMETAL/master/base.css' />");
-$('head').append("<link rel='stylesheet' href='//rawgit.com/sawwashere/CYTUBE-BABYMETAL/master/theme.css' />");
+$('head').append("<link rel='stylesheet' href='//rawgit.com/Ownsin/theme/master/theme.css' />");
 $(".navbar-brand").text("BABYMETAL");
 
 //CountDownTimer('09/14/2016 10:00 PM', 'countdown');
