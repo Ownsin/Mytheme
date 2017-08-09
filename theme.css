@@ -670,15 +670,6 @@ ul#queue {
     background-color: rgba(122, 130, 136, 0);
     border-color: rgba(0,0,0,.6);
 }
-.panel-heading:hover {
-    transform: scale(1.01);
-    -webkit-transform: scale(1.01);
-    -moz-transform: scale(1.01);
-    -o-transform: scale(1.01);
-    -ms-transform: scale(1.01);
-    z-index: 1;
-    border: none;
-}
 .qe_time {
     float: right;
     margin-right: 1%;
