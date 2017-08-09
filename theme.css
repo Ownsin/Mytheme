@@ -858,10 +858,3 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0050101', e
 .ch {
     width:25%;
 }
-
-#videowrap-header {
-	border: none !important;
-	
-	body {
-background:#10101A !important;
-}
