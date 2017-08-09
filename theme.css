@@ -686,37 +686,6 @@ input::-webkit-input-placeholder {
   font-style: italic;
   transition: color .5s ease;
 }
-
-input:focus::-webkit-input-placeholder {
-  color: transparent;
-}
-table {
-    background-color: rgba(0, 0, 0, 0.24);
-}
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.14);
-    border: 1px solid #1c1e22;
-    border-bottom-color: transparent;
-    cursor: default;
-}
-.nav>li>a:focus, .nav>li>a:hover {
-    text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.29);
-}
-.pagination>li.disabled>a, .pagination>li.disabled>a:hover, .pagination>li.disabled>span, .pagination>li.disabled>span:hover {
-    background-color: transparent;
-    background-image: -webkit-linear-gradient(#484e55,#3a3f44 60%,#313539);
-    background-image: -o-linear-gradient(#484e55,#3a3f44 60%,#313539);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#484e55),color-stop(60%,#3a3f44),to(#313539));
-    background-image: linear-gradient(rgba(0, 0, 0, 0.12),rgba(0, 0, 0, 0.16) 60%,rgba(0, 0, 0, 0.15));
-    background-repeat: no-repeat;
-    -webkit-filter: none;
-    filter: none;
-}
-#mediabuttons:hover {
-    color: hsl(0, 0%, 89%);
-}
 #AudioNoticeSqueeToggle {
 font-size: 12px;
     padding: 7px;
