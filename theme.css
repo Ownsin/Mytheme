@@ -265,7 +265,7 @@ p#currenttitle {
 			background: hsl(0,0%,31%);
 		}
 		#chatheader > .label, #chatheader > .label-default, #chatheader > .label-success, #chatheader i, #chatheader .custom-label {
-    float: right;
+    float: left;
     display: block;
     padding: 12.8px 0;
     padding: .8rem 0;
