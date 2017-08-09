@@ -165,9 +165,6 @@ form#logoutform {
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
 	background: hsl(199,68%,50%);
 }
-.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
-	color: hsl(0,0%,100%);
-}
 
 .navbar-inverse .navbar-brand {
 	    color: hsla(0, 0%, 94%, 0.98);
@@ -669,6 +666,15 @@ ul#queue {
     color: #BFBFBF;
     background-color: rgba(122, 130, 136, 0);
     border-color: rgba(0,0,0,.6);
+}
+.panel-heading:hover {
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    z-index: 1;
+    border: none;
 }
 .qe_time {
     float: right;
