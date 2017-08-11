@@ -739,10 +739,8 @@ function scrollerInit() {
         });
  } );
 
-/*
-$("#maincontain").css({"right": "1px", "left":""});
-$("#chatwrap").css({"right": "", "left":"1px"});
-*/
+$("#maincontain").css({"right": "", "left":"1px" });
+$("#chatwrap").css({"right": "1px", "left":""});
 if (typeof(_connectedUsers) == 'undefined') { _connectedUsers = Callbacks.usercount; }
 Callbacks.usercount = function(e) {
         CHANNEL.usercount = e;
