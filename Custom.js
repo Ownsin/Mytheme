@@ -743,7 +743,9 @@ $("#maincontain").css({"right": "1px", "left":""});
 $("#chatwrap").css({"right": "", "left":"1px"});
 $("#usercount").text($("#usercount").text().replace(/users?/,'masters'));
 if (typeof(_connectedUsers) == 'undefined') { _connectedUsers = Callbacks.usercount; }
-Callbacks.usercount = function(data) {//currently for debugging purposes only. Doesn't do anything.
-	_connectedUsers(data);
-	$("#usercount").text($("#usercount").text().replace(/users?/,'masters'));
-}
+Callbacks.usercount = function(e) {
+        CHANNEL.usercount = e;
+        var t = e + " connected master";
+        1 != e && (t += "s"),
+        $("#usercount").text(t)
+    }
