@@ -180,7 +180,7 @@ form#logoutform {
 }
 
 body {
-	background-color: rgb(12,13,27);
+	background: hsl(0,0%,6%);
 }
 
 
