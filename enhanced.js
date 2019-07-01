@@ -1,3 +1,6 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(//fonts.googleapis.com/css?family=Quicksand:400,700);
+
 #chatsettings {
     display: none;
 }
